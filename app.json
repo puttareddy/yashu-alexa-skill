@@ -1,0 +1,13 @@
+{
+  "name": "yashu-alexa-skill example",
+  "description": "A simple alexa-app example for Heroku.",
+  "repository": "https://github.com/puttareddy/yashu-alexa-skill",
+  "logo": "https://avatars0.githubusercontent.com/u/25057028",
+  "keywords": ["alexa", "amazon", "echo", "skills"],
+  "success_url": "/test",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
