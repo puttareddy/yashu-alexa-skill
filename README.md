@@ -1,6 +1,6 @@
 # Yashu-Alexa-Skill
 
-An Alexa skill to be used as a personal assistent.
+An Alexa skill to use it as a personal assistent.
 
 ## Request Flow
 Here is the Alexa Request Flow for reference.
@@ -60,7 +60,7 @@ You can access a test page to verify if the basic setup is working fine: *https:
 * Choose Alexa, Alexa Skill Kit
 * Add a New Skill
 * Fill Out Forms with INTENTS and UTTERANCES values from the above deployed endpoint. Invoke and copy these values from the ```/test``` endpoint from the above deployed application.
-* Choose `HTTPs` in _Service Endpoint Type_ in the Alexa app configuration on [developer.amazon.com](https://developer.amazon.com) and point to one of your apps. For example, [alexa-app-server-hello-world](https://github.com/dblock/alexa-app-server-hello-world) is available at `https://alexa-app-server-hello-world.herokuapp.com/alexa/hello_world`.
+* Choose `HTTPs` in _Service Endpoint Type_ in the Alexa app configuration on [developer.amazon.com](https://developer.amazon.com) and point to deployed app at `https://<app-name>.herokuapp.com/test`. Application name would change based on where it is deployed.
 
 OR 
 * Just specify the Lambda ARM, if you deploy it as a Lambda function
@@ -71,6 +71,9 @@ The skill is now available in [http://alexa.amazon.com](http://alexa.amazon.com)
 
 * Alexa, ask yashu to tell about puttareddy.
 * Alexa, ask yashu who is Murali.
+* Alexa, ask yashu my age is 30.
+* Alexa, ask yashu my name is puttareddy and I am 30 years old. 
+
 
 ### References
 
