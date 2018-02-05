@@ -51,7 +51,7 @@ alexaApp.intent('SelfIntent', {
   "utterances": ["Tell about {puttareddy|NAME}"]
 }, function(req, res) {
   let name = req.data.request.intent.slots.NAME.value;
-  console.log('name is -->', name)
+  //console.log('name is -->', name)
   let obj = '';
   if (name === 'murali'){
     obj +='Murali is hitler for 235 Bloor East kids'

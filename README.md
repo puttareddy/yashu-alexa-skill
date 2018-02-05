@@ -3,7 +3,9 @@
 An Alexa skill to be used as a personal assistent.
 
 ## Request Flow
-Here is the Alexa [Request Flow](./alexa-request-flow.JPG) for reference.
+Here is the Alexa Request Flow for reference.
+
+ ![Request Flow](./alexa-request-flow.JPG) 
 
 ### Steps
 
@@ -52,6 +54,24 @@ Your app should now be running on *https://`<app-name>`.herokuapp.com*, where `<
 
 You can access a test page to verify if the basic setup is working fine: *https://`<app-name>`.herokuapp.com/test*.
 
+### Create a New Skill
+
+* Sign into AWS Developer Console, [https://developer.amazon.com](https://developer.amazon.com).
+* Choose Alexa, Alexa Skill Kit
+* Add a New Skill
+* Fill Out Forms with INTENTS and UTTERANCES values from the above deployed endpoint. Invoke and copy these values from the ```/test``` endpoint from the above deployed application.
+* Choose `HTTPs` in _Service Endpoint Type_ in the Alexa app configuration on [developer.amazon.com](https://developer.amazon.com) and point to one of your apps. For example, [alexa-app-server-hello-world](https://github.com/dblock/alexa-app-server-hello-world) is available at `https://alexa-app-server-hello-world.herokuapp.com/alexa/hello_world`.
+
+OR 
+* Just specify the Lambda ARM, if you deploy it as a Lambda function
+
+The skill is now available in [http://alexa.amazon.com](http://alexa.amazon.com).
+
+#### Try It
+
+* Alexa, ask yashu to tell about puttareddy.
+* Alexa, ask yashu who is Murali.
+
 ### References
 
-This Alexa Skill is built using the [alexa-app](https://github.com/alexa-js/alexa-app) module with Express.
+This Alexa Skill is built by using the [alexa-app](https://github.com/alexa-js/alexa-app) module with Express.
