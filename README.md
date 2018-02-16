@@ -46,7 +46,7 @@ heroku open
 
 Alternatively, you can deploy your own copy of the app using this button:
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/alexa-js/alexa-app-example)
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/puttareddy/yashu-alexa-skill)
 
 Your app should now be running on *https://`<app-name>`.herokuapp.com*, where `<app-name>` is the heroku app name.
 
