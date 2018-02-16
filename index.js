@@ -54,7 +54,7 @@ alexaApp.intent('SelfIntent', {
   //console.log('name is -->', name)
   let obj = '';
   if (name === 'murali'){
-    obj +='Murali is hitler for 235 Bloor East kids'
+    obj +='Murali is hitlor for 235 Bloor East kids'
   }else if(name === 'puttareddy'){
     obj +='Puttareddy is creazy boy in 235 Bloor east'
   }
